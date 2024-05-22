@@ -6,19 +6,21 @@
 .flexBoxItem {
     width: 30%;
 } */
-.head {
-    background-color: black;
-}
-
 .body {
-    margin: 100px;;
+    margin: 10;
 }
 
 .grid {
-    border: 15px rgb(80,80,80) solid;
-
+    border: 5px rgb(80,80,80) solid;
 }
-
+.gridThree {
+    display: grid;
+    grid-template-columns: 34% 33% 33%;
+}
+.gridTwo {
+    display: grid;
+    grid-template-columns: 34% 66%;
+}
 .gridBox {
     display: flex;
     border: 5px rgb(80,80,80) solid;
